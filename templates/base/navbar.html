@@ -1,0 +1,11 @@
+{% load static %}
+<nav class="navbar  navbar-expand-lg bg-white navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'index'%}"><img class="img-responsive" src="{% static 'assets/logo.png' %}" width="70px" height="70px" alt="Logo MesureSphere"/></a>
+        <div>
+            <a class="btn fw-500 ms-lg-4 btn-primary" href="{% url 'pyserial:index' %}">
+                    Profiles
+            </a>
+        </div>
+    </div>
+</nav>
