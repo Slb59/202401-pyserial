@@ -24,6 +24,12 @@ SECRET_KEY = env("DJANGO_SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+ADMINS = (
+     ('Sylvie Bricout', 'osynia.devapps@gmail.com'),
+)
+
+MANAGERS = ADMINS
+
 ALLOWED_HOSTS = []
 
 # Application definition

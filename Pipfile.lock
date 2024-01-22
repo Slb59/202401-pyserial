@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0e867df23eee65a395bc0ea955eb7a7e2420039403122fc9e8c3194ce35f4685"
+            "sha256": "08a2e53b9d434ec1fdd5256bb81b25bc79fbe7891a8a0a9c6379e2f72cf8157e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -50,6 +50,14 @@
             "index": "pypi",
             "markers": "python_version >= '3.6' and python_version < '4'",
             "version": "==0.11.2"
+        },
+        "pyfirmata2": {
+            "hashes": [
+                "sha256:158e09114e6b325c1a1c02ac1b77c90d1f3a258fc917414648e594cb4a6c0ecb",
+                "sha256:a946387a0ac095255c0f9ff55618091439bc1a1b8ce6aa81097467d84b4f4ed9"
+            ],
+            "index": "pypi",
+            "version": "==2.4.5"
         },
         "pyserial": {
             "hashes": [
